@@ -1,0 +1,98 @@
+body {
+    background-image: url(Banana.gif);
+}
+
+header {
+    background-color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+
+header img {
+    height: 50%;
+}
+
+a:hover {
+    color: brown;
+    transition: 0.8ms;
+}
+
+a {
+    color: rgb(102, 90, 90);
+    font-size: 18px;
+}
+
+.about {
+    padding-right: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 25px;
+    height: 700px;
+    width: 1080px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    padding-left: 60px;
+}
+
+    h1 {
+    padding-left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+span {
+    color: green;
+}
+
+input, textarea {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    text-align: left;
+    color: rgb(160, 154, 154);
+    resize: none;
+    padding: 10px;
+}
+
+label {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+button {
+    width: 40%;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+}
+
+.darbuotojai {
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 18px;
+   padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding-top: 10px;
+}
